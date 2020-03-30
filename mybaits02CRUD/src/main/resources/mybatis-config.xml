@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--通过属性可以将值进行外部配置，从而实现动态替换 -->
+    <!--mysql.properties
+    username = dev_user
+    password = F2Fa3!33TYyg -->
+    <properties resource="mysql.properties"/>
+
+    <settings>
+        <!-- 开启日志-->
+        <setting name="logImpl" value="LOG4J"/>
+        <setting name="map" value=""/>
+    </settings>
+    <typeAliases>
+        <package name="com.hjc.POJO"/>
+    </typeAliases>
+
+    <!--you can set different environment-->
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url"
+                          value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="com/hjc/mapper/UserMapper.xml"/>
+        <mapper resource="com/hjc/mapper/PhoneMapper.xml"/>
+    </mappers>
+</configuration>

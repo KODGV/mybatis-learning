@@ -1,0 +1,621 @@
+[DEBUG][20-03-25][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2087885397.
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7c729a55]
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.insertUser]==>  Preparing: insert into mybatis.user(id,name,pwd) values(?,?,?); 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.insertUser]==> Parameters: 10(Integer), hhh(String), 1234560(String)
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.insertUser]<==    Updates: 1
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserList]==>  Preparing: select * from mybatis.user 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserList]==> Parameters: 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserList]<==      Total: 1
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7c729a55]
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.updateUser]==>  Preparing: update mybatis.user set name = ?,pwd=? where id = ?; 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.updateUser]==> Parameters: fuck(String), 1234560(String), 10(Integer)
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.updateUser]<==    Updates: 1
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserList]==>  Preparing: select * from mybatis.user 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserList]==> Parameters: 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserList]<==      Total: 1
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7c729a55]
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.deleteUser]==>  Preparing: delete from mybatis.user where id = ?; 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.deleteUser]==> Parameters: 10(Integer)
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.deleteUser]<==    Updates: 1
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserList]==>  Preparing: select * from mybatis.user 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserList]==> Parameters: 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserList]<==      Total: 0
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7c729a55]
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7c729a55]
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7c729a55]
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 2087885397 to pool.
+[DEBUG][20-03-25][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-25][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1666607455.
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6356695f]
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.insertUser]==>  Preparing: insert into mybatis.user(id,name,pwd) values(?,?,?); 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.insertUser]==> Parameters: 10(Integer), hhh(String), 1234560(String)
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.insertUser]<==    Updates: 1
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserList]==>  Preparing: select * from mybatis.user 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserList]==> Parameters: 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserList]<==      Total: 1
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6356695f]
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.updateUser]==>  Preparing: update mybatis.user set name = ?,pwd=? where id = ?; 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.updateUser]==> Parameters: fuck(String), 1234560(String), 10(Integer)
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.updateUser]<==    Updates: 1
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserList]==>  Preparing: select * from mybatis.user 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserList]==> Parameters: 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserList]<==      Total: 1
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6356695f]
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.deleteUser]==>  Preparing: delete from mybatis.user where id = ?; 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.deleteUser]==> Parameters: 10(Integer)
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.deleteUser]<==    Updates: 1
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserList]==>  Preparing: select * from mybatis.user 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserList]==> Parameters: 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserList]<==      Total: 0
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6356695f]
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6356695f]
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6356695f]
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1666607455 to pool.
+[DEBUG][20-03-25][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-25][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1327006586.
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4f18837a]
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.insertUser]==>  Preparing: insert into mybatis.user(id,name,pwd) values(?,?,?); 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.insertUser]==> Parameters: 1(Integer), hhh(String), 1234560(String)
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.insertUser]<==    Updates: 1
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4f18837a]
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.insertUser]==>  Preparing: insert into mybatis.user(id,name,pwd) values(?,?,?); 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.insertUser]==> Parameters: 1(Integer), uuu(String), 1234560(String)
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.insertUser]<==    Updates: 1
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4f18837a]
+[DEBUG][20-03-25][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-25][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-25][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][20-03-25][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][20-03-25][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][20-03-25][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][20-03-25][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-25][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-25][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][20-03-25][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][20-03-25][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][20-03-25][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][20-03-25][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][20-03-25][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-25][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-25][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][20-03-25][org.apache.ibatis.io.DefaultVFS]Listing file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-25][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-25][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-25][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 \	  E	  F	  G H
+[DEBUG][20-03-25][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.User matches criteria [is assignable to Object]
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 798981583.
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2f9f7dcf]
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserByLimit]==>  Preparing: select * from mybatis.user limit 0,1; 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserByLimit]==> Parameters: 
+[DEBUG][20-03-25][com.hjc.mapper.UserMapper.getUserByLimit]<==      Total: 1
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2f9f7dcf]
+[DEBUG][20-03-25][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2f9f7dcf]
+[DEBUG][20-03-25][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 798981583 to pool.
+[DEBUG][20-03-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-26][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][20-03-26][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][20-03-26][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][20-03-26][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][20-03-26][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Listing file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 \	  E	  F	  G H
+[DEBUG][20-03-26][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.User matches criteria [is assignable to Object]
+[DEBUG][20-03-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1954406292.
+[DEBUG][20-03-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@747ddf94]
+[DEBUG][20-03-26][com.hjc.mapper.UserMapper.getUserByLimit]==>  Preparing: select * from mybatis.user limit 0,1; 
+[DEBUG][20-03-26][com.hjc.mapper.UserMapper.getUserByLimit]==> Parameters: 
+[DEBUG][20-03-26][com.hjc.mapper.UserMapper.getUserByLimit]<==      Total: 1
+[DEBUG][20-03-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@747ddf94]
+[DEBUG][20-03-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@747ddf94]
+[DEBUG][20-03-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1954406292 to pool.
+[DEBUG][20-03-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-26][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][20-03-26][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][20-03-26][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][20-03-26][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][20-03-26][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Listing file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 \	  E	  F	  G H
+[DEBUG][20-03-26][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.User matches criteria [is assignable to Object]
+[DEBUG][20-03-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1954406292.
+[DEBUG][20-03-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@747ddf94]
+[DEBUG][20-03-26][com.hjc.mapper.UserMapper.getUserByLimit]==>  Preparing: select * from mybatis.user limit 0,1; 
+[DEBUG][20-03-26][com.hjc.mapper.UserMapper.getUserByLimit]==> Parameters: 
+[DEBUG][20-03-26][com.hjc.mapper.UserMapper.getUserByLimit]<==      Total: 1
+[DEBUG][20-03-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@747ddf94]
+[DEBUG][20-03-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@747ddf94]
+[DEBUG][20-03-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1954406292 to pool.
+[DEBUG][20-03-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-26][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][20-03-26][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][20-03-26][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][20-03-26][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][20-03-26][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Listing file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-26][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 \	  E	  F	  G H
+[DEBUG][20-03-26][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.User matches criteria [is assignable to Object]
+[DEBUG][20-03-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1954406292.
+[DEBUG][20-03-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@747ddf94]
+[DEBUG][20-03-26][com.hjc.mapper.UserMapper.getUserByLimit]==>  Preparing: select * from mybatis.user limit 0,1; 
+[DEBUG][20-03-26][com.hjc.mapper.UserMapper.getUserByLimit]==> Parameters: 
+[DEBUG][20-03-26][com.hjc.mapper.UserMapper.getUserByLimit]<==      Total: 1
+[DEBUG][20-03-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@747ddf94]
+[DEBUG][20-03-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@747ddf94]
+[DEBUG][20-03-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1954406292 to pool.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][20-03-28][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Listing file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 j
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 � m
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.Phone matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.User matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 232307208.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][com.hjc.mapper.PhoneMapper.getPhones]==>  Preparing: select p.id as pid,p.name pname,p.price,u.id as uid ,u.name tname,u.pwd from phone p,user u where p.userid = u.id; 
+[DEBUG][20-03-28][com.hjc.mapper.PhoneMapper.getPhones]==> Parameters: 
+[DEBUG][20-03-28][com.hjc.mapper.PhoneMapper.getPhones]<==      Total: 4
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][20-03-28][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Listing file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 j
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 � m
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.Phone matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.User matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 232307208.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][com.hjc.mapper.PhoneMapper.getPhones]==>  Preparing: select p.id as pid,p.name pname,p.price,u.id as uid ,u.name tname,u.pwd from phone p,user u where p.userid = u.id; 
+[DEBUG][20-03-28][com.hjc.mapper.PhoneMapper.getPhones]==> Parameters: 
+[DEBUG][20-03-28][com.hjc.mapper.PhoneMapper.getPhones]<==      Total: 4
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][20-03-28][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Listing file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 j
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 � m
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.Phone matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.User matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 232307208.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][com.hjc.mapper.PhoneMapper.getPhones]==>  Preparing: select p.id as pid,p.name pname,p.price,u.id as uid ,u.name tname,u.pwd from phone p,user u where p.userid = u.id; 
+[DEBUG][20-03-28][com.hjc.mapper.PhoneMapper.getPhones]==> Parameters: 
+[DEBUG][20-03-28][com.hjc.mapper.PhoneMapper.getPhones]<==      Total: 4
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][20-03-28][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Listing file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 a
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 � �
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.Phone matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.User matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 232307208.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][com.hjc.mapper.PhoneMapper.getPhones]==>  Preparing: select p.id as pid,p.name pname,p.price,u.id as uid ,u.name tname,u.pwd from phone p,user u where p.userid = u.id; 
+[DEBUG][20-03-28][com.hjc.mapper.PhoneMapper.getPhones]==> Parameters: 
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][20-03-28][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Listing file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 a
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 � �
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.Phone matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.User matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 232307208.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]==>  Preparing: select p.id as pid,p.name pname,p.price,u.id as uid ,u.name tname,u.pwd from phone p,user u where p.userid = u.id; 
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]==> Parameters: 
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]<==      Total: 4
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 232307208 to pool.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][20-03-28][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Listing file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 a
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 � �
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.Phone matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.User matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 232307208.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]==>  Preparing: select p.id as pid,p.name pname,p.price,u.id as uid ,u.name tname,u.pwd from phone p,user u where p.userid = u.id; 
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]==> Parameters: 
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]<==      Total: 4
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 232307208 to pool.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][20-03-28][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Listing file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 a
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 � �
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.Phone matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.User matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 232307208.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]==>  Preparing: select p.id as pid,p.name pname,p.price,u.id as uid ,u.name tname,u.pwd from phone p,user u ; 
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]==> Parameters: 
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]<==      Total: 6
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 232307208 to pool.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][20-03-28][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Listing file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 a
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 � �
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.Phone matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.User matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 232307208.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]==>  Preparing: select * from user where user.id =2 
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]==> Parameters: 
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]<==      Total: 0
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 232307208 to pool.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][20-03-28][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Listing file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 a
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 � �
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.Phone matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.User matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 232307208.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]==>  Preparing: select p.id as pid,p.name pname,p.price,u.id as uid ,u.name tname,u.pwd from phone p,user u ; 
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]==> Parameters: 
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]<==      Total: 9
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 232307208 to pool.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][20-03-28][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Listing file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 a
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 � �
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.Phone matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.User matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 232307208.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]==>  Preparing: select p.id as pid,p.name pname,p.price,u.id as uid ,u.name tname,u.pwd from phone p,user u where p.userid = u.id; 
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]==> Parameters: 
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]<==      Total: 3
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 232307208 to pool.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][20-03-28][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Listing file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 a
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 � �
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.Phone matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.User matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 232307208.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]==>  Preparing: select * from user u ; 
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]==> Parameters: 
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]<==      Total: 3
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 232307208 to pool.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][20-03-28][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Listing file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 a
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 � �
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.Phone matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.User matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 232307208.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]==>  Preparing: select p.id as pid,p.name pname,p.price,u.id as uid ,u.name tname,u.pwd from phone p left outer join user u on p.userid = u.id; 
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]==> Parameters: 
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]<==      Total: 3
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 232307208 to pool.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][20-03-28][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][20-03-28][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Listing file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/Phone.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 a
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/E:/javaProject/mybaitsLearning/mybaits02CRUD/target/classes/com/hjc/POJO/User.class
+[DEBUG][20-03-28][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 � �
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.Phone matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.hjc.POJO.User matches criteria [is assignable to Object]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 232307208.
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]==>  Preparing: select p.id as pid,p.name pname,p.price,u.id as uid ,u.name tname,u.pwd from user u left outer join phone p on p.userid = u.id; 
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]==> Parameters: 
+[DEBUG][20-03-28][com.hjc.mapper.UserMapper.getUserList]<==      Total: 5
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@dd8ba08]
+[DEBUG][20-03-28][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 232307208 to pool.

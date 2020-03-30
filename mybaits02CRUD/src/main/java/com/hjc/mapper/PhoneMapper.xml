@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hjc.mapper.PhoneMapper">
+    <resultMap id="phoneMap" type="phone">
+
+        <id property="id" column="pid"/>
+        <result property="name" column="pname"/>
+        <result property="price" column="price"/>
+        <association property="user" javaType="user">
+            <result property="name" column="pname"></result>
+            <result property="pwd" column="pwd"></result>
+        </association>
+    </resultMap>
+    <select id="getPhones" resultMap="phoneMap">
+    select p.id as pid,p.name pname,p.price,u.id as uid ,u.name tname,u.pwd
+    from phone p left outer join user u on p.userid = u.id;
+  </select>
+
+</mapper>
